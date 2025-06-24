@@ -18,12 +18,14 @@ body {
 }
 
 .title {
-  margin-bottom: 48px;
+  margin-bottom: 3rem; /* 48/16 = 3rem*/
   width: 180px;
   height: 38px;
   font-weight: 800;
-  font-size: 32px;
-  line-height: 120%;
+  /* font-size: 32px; */
+  font-size: 3rem;
+  /* line-height: 120%; */
+  line-height: 1.2;
 }
 
 .intro-chunk {
@@ -37,8 +39,10 @@ body {
 .intro-chunk p {
   max-height: 60px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem; /* 20/16 == 1.25 rem */
   line-height: 120%;
+  /* margin: 0; */
+  margin-bottom: 1rem; /* 16/16 = 1rem*/
 }
 
 .intro-chunk p strong {
